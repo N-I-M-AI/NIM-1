@@ -1,0 +1,20 @@
+# Weights and binary artifacts
+*.gguf
+*.safetensors
+*.bin
+qwen_distilled_3b_q8_gguf/
+qwen_distilled_3b_lora/
+qwen_distilled_3b_q8/
+distill_checkpoints/
+
+# Virtual environment and caches
+venv/
+miniconda/
+Miniconda3*.sh
+__pycache__/
+*.pyc
+.cache/
+unsloth_compiled_cache/
+
+# Local scripts with credentials
+upload_hf.py
