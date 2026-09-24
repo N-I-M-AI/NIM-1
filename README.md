@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 ---
 license: apache-2.0
 language:
